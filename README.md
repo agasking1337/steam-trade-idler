@@ -36,8 +36,8 @@ After this make way to this directory, and drop in the code.
 Once this is complete type the following into Command Prompt.
 
 ```
-cd steam-trade-farm
-node bot
+cd steam-trade-idler
+node index.js
 ```
 Or make a batch file where you put the following command
 ```
