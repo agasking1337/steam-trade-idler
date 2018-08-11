@@ -159,7 +159,7 @@ nr2Manager.on('newOffer', function(offer) {
       offer.accept(function(err) {
          var identity_secret = config.bots.nr2.identity_secret;
          console.log('nr2 Account, has accepted trade. Now sending it back.');
-         var newOffer = nr2Manager.createOffer(config.bots.first.tradelink);
+         var newOffer = nr2Manager.createOffer(config.bots.firstaccount.tradelink);
          nr2Manager.getInventoryContents(440, 2, true, (err, inv) => {
             if (err) {
                console.log('Error getting our inventory.');
