@@ -46,4 +46,4 @@ color 2
 node index.js
 pause
 ```
-And save as start.bat in steam-tradeidle-master folder.
+And save as start.bat in steam-trade-idle folder.
