@@ -29,6 +29,7 @@ npm install steam-tradeoffer-manager
 npm install steamcommunity
 npm install steam-totp
 npm install fs
+npm i --save lodash.merge
 
 ```
 
