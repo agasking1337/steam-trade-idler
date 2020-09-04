@@ -3,6 +3,7 @@ var SteamCommunity = require('steamcommunity');
 var SteamTotp = require('steam-totp');
 var TradeOfferManager = require('steam-tradeoffer-manager'); 
 var fs = require('fs');
+var merge = require('lodash.merge');
 
 var firstClient = new SteamUser();
 var nr2Client = new SteamUser();
